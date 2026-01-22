@@ -1936,7 +1936,7 @@ dependencies:
 metadata: {description: 'mybizz_core_v1_dev ', title: MyBizz Master Template}
 name: mybizz_core_v1.3_dev
 native_deps: {head_html: ''}
-package_name: mybizz_core_v1_2_dev
+package_name: mybizz_core_v1_3_dev
 renamed: true
 runtime_options:
   client_version: '3'
