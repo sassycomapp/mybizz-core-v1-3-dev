@@ -96,6 +96,7 @@ unique_ids:
     layouts.BlankLayout: '1768998575477124691853768.20868'
     layouts.CustomerLayout: '1768998523831330009546950.3593'
     layouts.ErrorLayout: '1768998621666197490609625.44162'
+    layouts.MainLayout: '1769229275226687178539242.2931'
     marketing.EmailBroadcastForm: '1768979949363968769636465.8353'
     marketing.EmailCampaignEditorForm: '1768979918937856897112440.8987'
     marketing.EmailCampaignListForm: '1768979878912386209696928.3747'
