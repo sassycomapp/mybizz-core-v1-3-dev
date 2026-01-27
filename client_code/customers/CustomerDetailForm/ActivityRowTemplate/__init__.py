@@ -1,4 +1,4 @@
-from ._anvil_designer import ActivityItemTemplateTemplate
+from ._anvil_designer import ActivityRowTemplateTemplate
 from anvil import *
 import m3.components as m3
 from routing import router
@@ -12,7 +12,7 @@ import anvil.tables.query as q
 from anvil.tables import app_tables
 
 
-class ActivityItemTemplate(ActivityItemTemplateTemplate):
+class ActivityRowTemplate(ActivityRowTemplateTemplate):
   def __init__(self, **properties):
     self.item = properties.get('item')
     self.init_components(**properties)

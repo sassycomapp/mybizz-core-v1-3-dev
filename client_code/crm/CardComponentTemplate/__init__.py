@@ -1,4 +1,4 @@
-from ._anvil_designer import SegmentCardTemplateTemplate
+from ._anvil_designer import CardComponentTemplateTemplate
 from anvil import *
 import anvil.server
 from routing import router
@@ -11,7 +11,7 @@ import anvil.tables.query as q
 from anvil.tables import app_tables
 
 
-class SegmentCardTemplate(SegmentCardTemplateTemplate):
+class CardComponentTemplate(CardComponentTemplateTemplate):
   def __init__(self, **properties):
     # Set Form properties and Data Bindings.
     self.init_components(**properties)

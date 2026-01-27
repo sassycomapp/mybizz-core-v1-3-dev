@@ -1,4 +1,4 @@
-from ._anvil_designer import ActivityItemTemplateTemplate
+from ._anvil_designer import ActivityRowTemplateTemplate
 from anvil import *
 import m3.components as m3
 from routing import router
@@ -13,7 +13,7 @@ from anvil.tables import app_tables
 
 
     # Any code you write here will run before the form opens.
-class ActivityItemTemplate(ActivityItemTemplateTemplate):
+class ActivityRowTemplate(ActivityRowTemplateTemplate):
   def __init__(self, **properties):
     self.item = properties.get('item')
     self.init_components(**properties)

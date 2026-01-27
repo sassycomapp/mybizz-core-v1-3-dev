@@ -1,4 +1,4 @@
-from ._anvil_designer import ActivityFeedTemplate
+from ._anvil_designer import ActivityFeedWidgetTemplate
 from anvil import *
 import m3.components as m3
 from routing import router
@@ -6,7 +6,7 @@ import anvil.server
 import anvil.users
 from datetime import datetime
 
-class ActivityFeed(ActivityFeedTemplate):
+class ActivityFeedWidget(ActivityFeedWidgetTemplate):
   """Recent activity timeline widget"""
 
   def __init__(self, **properties):

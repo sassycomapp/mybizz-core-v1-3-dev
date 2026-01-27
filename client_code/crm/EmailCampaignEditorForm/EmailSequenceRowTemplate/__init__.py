@@ -1,5 +1,6 @@
-from ._anvil_designer import TaskItemTemplateTemplate
+from ._anvil_designer import EmailSequenceRowTemplateTemplate
 from anvil import *
+import m3.components as m3
 import anvil.server
 from routing import router
 import anvil.google.auth, anvil.google.drive
@@ -11,7 +12,7 @@ import anvil.tables.query as q
 from anvil.tables import app_tables
 
 
-class TaskItemTemplate(TaskItemTemplateTemplate):
+class EmailSequenceRowTemplate(EmailSequenceRowTemplateTemplate):
   def __init__(self, **properties):
     # Set Form properties and Data Bindings.
     self.init_components(**properties)

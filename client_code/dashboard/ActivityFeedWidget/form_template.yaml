@@ -12,7 +12,7 @@ components:
       type: Button
     - layout_properties: {grid_position: 'BNQQAF,YACMWJ'}
       name: rp_activities
-      properties: {item_template: dashboard.ActivityFeed.ActivityItemTemplate}
+      properties: {item_template: dashboard.ActivityFeedWidget.ActivityRowTemplate}
       type: RepeatingPanel
     - layout_properties: {grid_position: 'ZQMHGG,PHWNAV'}
       name: lbl_no_activity

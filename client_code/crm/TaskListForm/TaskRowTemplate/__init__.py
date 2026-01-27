@@ -1,8 +1,7 @@
-from ._anvil_designer import GuestNoteTemplateTemplate
+from ._anvil_designer import TaskRowTemplateTemplate
 from anvil import *
-import m3.components as m3
-from routing import router
 import anvil.server
+from routing import router
 import anvil.google.auth, anvil.google.drive
 from anvil.google.drive import app_files
 import stripe.checkout
@@ -12,9 +11,9 @@ import anvil.tables.query as q
 from anvil.tables import app_tables
 
 
-class GuestNoteTemplate(GuestNoteTemplateTemplate):
+class TaskRowTemplate(TaskRowTemplateTemplate):
   def __init__(self, **properties):
-    self.item = properties.get('item')
+    # Set Form properties and Data Bindings.
     self.init_components(**properties)
 
-    self.lbl_note.text = self.item['note']
+    # Any code you write here will run before the form opens.

@@ -61,7 +61,7 @@ components:
       type: Label
     - layout_properties: {grid_position: 'DLNISW,ZVXNFE'}
       name: rp_activity
-      properties: {item_template: customers.CustomerDetailForm.ActivityItemTemplate}
+      properties: {item_template: customers.CustomerDetailForm.ActivityRowTemplate}
       type: RepeatingPanel
     - layout_properties: {grid_position: 'QCJJBV,NSRUCD'}
       name: lbl_no_activity
