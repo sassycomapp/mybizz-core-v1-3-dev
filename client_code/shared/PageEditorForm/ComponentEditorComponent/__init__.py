@@ -1,4 +1,4 @@
-from ._anvil_designer import ComponentEditorTemplateTemplate
+from ._anvil_designer import ComponentEditorComponentTemplate
 from anvil import *
 import anvil.server
 import anvil.google.auth, anvil.google.drive
@@ -10,7 +10,7 @@ import anvil.tables.query as q
 from anvil.tables import app_tables
 
 
-class ComponentEditorTemplate(ComponentEditorTemplateTemplate):
+class ComponentEditorComponent(ComponentEditorComponentTemplate):
   """Component editor row"""
 
   def __init__(self, **properties):

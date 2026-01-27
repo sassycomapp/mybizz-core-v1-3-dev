@@ -1,4 +1,4 @@
-from ._anvil_designer import CategoryCardTemplateTemplate
+from ._anvil_designer import CategoryRowTemplateTemplate
 from anvil import *
 import anvil.server
 import anvil.google.auth, anvil.google.drive
@@ -9,7 +9,7 @@ import anvil.tables as tables
 import anvil.tables.query as q
 from anvil.tables import app_tables
 
-class CategoryCardTemplate(CategoryCardTemplateTemplate):
+class CategoryRowTemplate(CategoryRowTemplateTemplate):
   """Category card with clickable link"""
 
   def __init__(self, **properties):

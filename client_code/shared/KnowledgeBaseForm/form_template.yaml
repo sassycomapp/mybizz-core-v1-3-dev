@@ -23,7 +23,7 @@ components:
       type: Label
     - layout_properties: {grid_position: 'XXCLWG,DRCOEO'}
       name: rp_popular
-      properties: {item_template: shared.KnowledgeBaseForm.CategoryCardTemplate}
+      properties: {item_template: shared.KnowledgeBaseForm.CategoryRowTemplate}
       type: RepeatingPanel
     - layout_properties: {grid_position: 'AVTHYZ,UYRBKH'}
       name: lbl_recent
@@ -31,7 +31,7 @@ components:
       type: Label
     - layout_properties: {grid_position: 'HQAKPD,YTQLFS'}
       name: rp_recent
-      properties: {item_template: shared.KnowledgeBaseForm.ArticleLinkTemplate}
+      properties: {item_template: shared.KnowledgeBaseForm.ArticleLinkRowTemplate}
       type: RepeatingPanel
     layout_properties: {grid_position: 'IMDFTW,XZKSLR'}
     name: column_panel_1

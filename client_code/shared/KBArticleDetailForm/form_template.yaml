@@ -33,7 +33,7 @@ components:
       type: Label
     - layout_properties: {grid_position: 'ZKAVCS,COEGBT'}
       name: rp_related
-      properties: {item_template: shared.KBArticleDetailForm.RelatedArticleTemplate}
+      properties: {item_template: shared.KBArticleDetailForm.RelatedArticleRowTemplate}
       type: RepeatingPanel
     layout_properties: {grid_position: 'THQEBD,HGGCID'}
     name: column_panel_1

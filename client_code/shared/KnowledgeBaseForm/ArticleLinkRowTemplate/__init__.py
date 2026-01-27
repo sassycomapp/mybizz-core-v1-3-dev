@@ -1,4 +1,4 @@
-from ._anvil_designer import RelatedArticleTemplateTemplate
+from ._anvil_designer import ArticleLinkRowTemplateTemplate
 from anvil import *
 import anvil.server
 import anvil.google.auth, anvil.google.drive
@@ -9,9 +9,8 @@ import anvil.tables as tables
 import anvil.tables.query as q
 from anvil.tables import app_tables
 
-
-class RelatedArticleTemplate(RelatedArticleTemplateTemplate):
-  """Related article link"""
+class ArticleLinkRowTemplate(ArticleLinkRowTemplateTemplate):
+  """Article link"""
 
   def __init__(self, **properties):
     self.article = self.item
