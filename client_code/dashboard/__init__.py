@@ -1,20 +1,18 @@
-from routing import router
-import anvil.server
-import anvil.google.auth, anvil.google.drive
-from anvil.google.drive import app_files
-import stripe.checkout
-import anvil.users
-import anvil.tables as tables
-import anvil.tables.query as q
-from anvil.tables import app_tables
-# This is a package.
-# You can define variables and functions here, and use them from any form. For example, in a top-level form:
-#
-#    from .. import Package1
-#
-#    Package1.say_hello()
-#
+"""
+Dashboard Package
 
+M3-compliant dashboard module.
 
-def say_hello():
-  print("Hello, world")
+Contains:
+    - DashboardForm: Main dashboard
+    - MetricsPanelComponent: Metrics widget
+    - ActivityFeedWidget: Activity timeline
+    - ActivityRowTemplate: Activity row
+    - StorageWidget: Storage usage widget
+    - NotificationComponent: Toast/notification component
+
+Architecture:
+    UI Forms → server_code/server_dashboard/ (business logic)
+"""
+
+__all__ = []
