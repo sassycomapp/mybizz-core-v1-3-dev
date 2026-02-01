@@ -1968,3 +1968,4 @@ services:
   source: /runtime/services/google.yml
 startup: {module: public_pages.HomePage, type: form}
 startup_form: null
+uplink_visible: true
