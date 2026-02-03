@@ -3,8 +3,6 @@ from anvil import *
 import anvil.server
 import anvil.users
 
-# Import your startup logic module (optional, structured apps only)
-from .. import startup
 
 
 class HomePage(HomePageTemplate):
