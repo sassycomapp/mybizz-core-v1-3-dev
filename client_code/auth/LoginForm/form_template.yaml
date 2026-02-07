@@ -2,7 +2,12 @@ components:
 - components:
   - components:
     - components:
-      - layout_properties: {grid_position: 'KDPMCR,EACSTU'}
+      - components:
+        - layout_properties: {}
+          name: lbl_title
+          properties: {}
+          type: form:dep_ftrc8xuvrf6lsd:_Components.Heading
+        layout_properties: {grid_position: 'KDPMCR,EACSTU'}
         name: lp_header
         properties: {}
         type: FlowPanel
